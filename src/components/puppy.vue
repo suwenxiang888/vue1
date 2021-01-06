@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-	foolish
+	<h1>foolish</h1>
   </div>
 </template>
 
