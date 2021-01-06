@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import main from '@/components/main'
 import puppy from '@/components/puppy'
 import oil from '@/components/oil'
+import main_search from '@/components/main_search'
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,11 @@ export default new Router({
       path: '/oil',
       name: 'oil',
       component:oil
+    },
+ {
+      path: '/main_search',
+      name: 'main_search',
+      component:main_search
     }
   ]
 })
