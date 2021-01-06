@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    二货
+    二货痴呆
   </div>
 </template>
 
