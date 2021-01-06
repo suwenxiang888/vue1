@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import main from '@/components/main'
 import puppy from '@/components/puppy'
-
+import oil from '@/components/oil'
 Vue.use(Router)
 
 export default new Router({
@@ -22,6 +22,11 @@ export default new Router({
       path: '/puppy',
       name: 'puppy',
       component:puppy
+    },
+ {
+      path: '/oil',
+      name: 'oil',
+      component:oil
     }
   ]
 })
